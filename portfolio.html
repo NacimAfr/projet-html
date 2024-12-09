@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Nacim AFRIKOU">
+    <meta name="author" content="Nacim AFRIKOU">
+    <title>Nacim AFRIKOU</title>
+
+    <!-- Lien vers Bootstrap pour le style -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<header class="bg-dark text-white text-center py-5">
+    <div class="container">
+        <h1 class="display-4">Nacim AFRIKOU</h1>
+        <img src="img/pdp.jpg" alt="Photo de Nacim AFRIKOU" class="img-fluid rounded-circle" style="max-width: 200px;" />
+    </div>
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Mon Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#edito">Edito</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projets">Projets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main class="container my-5">
+    <section id="edito" class="my-5">
+        <h2 class="text-center mb-4"></h2>
+        <div id="editoCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/carrousel5.jpg" class="d-block w-100" alt="Édito Image 1" style="max-height: 400px; object-fit: cover;">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel2.jpg" class="d-block w-100" alt="Édito Image 2" style="max-height: 400px; object-fit: cover;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Bienvenue sur mon portfolio</h5>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#editoCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Précédent</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#editoCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Suivant</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="projets" class="my-5">
+        <h2 class="text-center mb-4">Mes Projets</h2>
+        <div class="row">
+            <!-- Projet 1 -->
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="img/projet1.jpg" class="card-img-top" alt="Projet 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Projet 1</h5>
+                        <p class="card-text">Analyse de Performance des Voitures de Formule 1.</p>
+                        <a href="projet1.html" class="btn btn-primary">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Projet 2 -->
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="img/projet2.png" class="card-img-top" alt="Projet 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Projet 2</h5>
+                        <p class="card-text">Modélisation des Voitures de F1.</p>
+                        <a href="projet2.html" class="btn btn-primary">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Projet 3 -->
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="img/projet3.jpg" class="card-img-top" alt="Projet 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Projet 3</h5>
+                        <p class="card-text">Conception d'une Maquette de supercar.</p>
+                        <a href="projet3.html" class="btn btn-primary">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Projet 4 -->
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="img/projet4.jpg" class="card-img-top" alt="Projet 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Projet 4</h5>
+                        <p class="card-text">Conception d'un Drone de Surveillance.</p>
+                        <a href="projet4.html" class="btn btn-primary">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Projet 5 -->
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="img/projet5.jpg" class="card-img-top" alt="Projet 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Projet 5</h5>
+                        <p class="card-text">Fabrication d'une Fusée à Eau.</p>
+                        <a href="projet5.html" class="btn btn-primary">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Projet 6 -->
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <img src="img/projet6.jpg" class="card-img-top" alt="Projet 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Projet 6</h5>
+                        <p class="card-text">Analyse Statistique des Performances des Joueurs de Football.</p>
+                        <a href="projet6.html" class="btn btn-primary">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="my-5">
+        <h2 class="text-center mb-4">Contactez-moi</h2>
+        <form action="#" method="POST" class="mx-auto" style="max-width: 600px;">
+            <div class="mb-3">
+                <label for="prenom" class="form-label">Prénom</label>
+                <input type="text" class="form-control" id="prenom" name="prenom" required>
+            </div>
+            <div class="mb-3">
+                <label for="nom" class="form-label">Nom</label>
+                <input type="text" class="form-control" id="nom" name="nom" required>
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+    </section>
+</main>
+
+<footer class="bg-dark text-white text-center py-3">
+    <div>
+        <a href="https://www.linkedin.com/in/nacim-afrikou-832b88319/" class="text-white me-3">
+            <i class="fab fa-linkedin" style="font-size: 30px;"></i>
+        </a>
+        <a href="https://outlook.office.com/mail/?actSwt=true" class="text-white me-3">
+            <i class="fas fa-envelope" style="font-size: 30px;"></i>
+        </a>
+        <a href="https://github.com" class="text-white">
+            <i class="fab fa-github" style="font-size: 30px;"></i>
+        </a>
+    </div>
+    <p>&copy; 2024 Nacim AFRIKOU. Tous droits réservés.</p>
+</footer>
+
+<!-- Scripts Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
